@@ -1,0 +1,5 @@
+a=1
+print("the first 10 natural numbers are: ")
+while a<11:
+    print(a)
+    a+=1
