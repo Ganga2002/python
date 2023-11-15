@@ -1,0 +1,15 @@
+x=int(input('enter 1st number'))
+y=int(input('enter 2nd number'))
+option=int(input('press 1 for addition \npress 2 for substraction\npress 3 for division\npress 4 for multiplication'))
+if(option==1):
+    sum=x+y
+    print('sum=',int(sum))
+elif(option==2):
+    difference=x-y
+    print('difference=',int(difference))
+elif(option==3):
+    answer=x/y
+    print('answer=',int(answer))
+else:
+    value=x*y
+    print('value=',int(value))
