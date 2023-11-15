@@ -1,0 +1,6 @@
+numbers=[2,4,1,6,7]
+length=len(numbers)
+for a in range(1,length):
+    if a%2!=0:
+        num=[numbers[a]]
+print(num)
