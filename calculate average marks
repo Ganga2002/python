@@ -1,0 +1,9 @@
+print('enter the marks')
+a=int(input('subject 1:'))
+b=int(input('subject 2:'))
+c=int(input('subject 3:'))
+d=int(input('subject 4:'))
+e=int(input('subject 5:'))
+sum=a+b+c+d+e
+average=int(sum)/5
+print('average=',float(average))
