@@ -1,7 +1,13 @@
+b=[]
+n=int(input('enter number:'))
+for i in range(n):
+    ele=input('enter element')
+    b.append(ele)
+print(b)
 b=['ganga','adithyan']
 a=str(b)
 count=0   
 for i in a:
     if i=='a':
         count=count+1
-print(count)
+print('count of a is',count)
