@@ -1,0 +1,8 @@
+a=['ganga','adithyan','yasi']
+long=0
+for i in a:
+    b=len(i)
+    if(b>long):
+        long=b
+        res=i
+print(res)
