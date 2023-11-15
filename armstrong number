@@ -1,0 +1,11 @@
+a=int(input('enter a number'))
+temp=a
+sum=0
+while(temp>0):
+    digit=temp%10
+    sum+=digit*digit*digit
+    temp=temp//10
+if(sum==a):
+    print('it is an armstrong number')
+else:
+    print('it is not armstrong number')
