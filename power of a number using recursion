@@ -1,0 +1,9 @@
+def power(n,p):
+    if p<=0:
+        return 1
+    else: 
+        return n*power(n,p-1)
+a=int(input('enter number'))
+b=int(input('enter power'))
+power(a,b)
+print('the value is ',power(a,b))
