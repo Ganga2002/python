@@ -1,0 +1,6 @@
+x=int(input('enter the dividend'))
+y=int(input('enter the divisor'))
+quotient=x/y
+print('the quotient is',int(quotient))
+reminder=x%y
+print('the reminder is',int(reminder))
