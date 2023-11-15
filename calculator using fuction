@@ -1,0 +1,21 @@
+def add(x,y):
+    return x+y
+def subtract(x,y):
+    return x-y
+def multiply(x,y):
+    return x*y
+def divide(x,y):
+    return x/y
+a=float(input('enter first number:'))
+b=float(input('enter second number:'))
+choose=input('choose operation=\n1.addition\n2.subtraction\n3.multiply\n4.divide:')
+if choose=='1':
+    print(a,'+',b,"=",add(a,b))
+elif choose=='2':
+    print(subtract(a,b))
+elif choose=='3':
+    print(a,'*',b,"=",multiply(a,b))
+elif choose=='4':
+    print(a,'/',b,"=",divide(a,b))
+else:
+    print('choose correct option')
