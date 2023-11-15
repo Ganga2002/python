@@ -1,7 +1,7 @@
 a=input('enter a srting:')
 if a[-3:]=='ing':
     print(a+'ly')
-if a[-2:]=='ly':
+elif a[-2:]=='ly':
     print(a+'ing')
 else:
     b=a+'ing'
