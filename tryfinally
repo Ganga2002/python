@@ -1,0 +1,9 @@
+try:
+    filepte=open(abc.txt,'r')
+    try:
+        filepte.write("hi how are u")
+    finally:
+        filepte.close()
+        print("file closed")
+except:
+    print('error')
