@@ -1,0 +1,30 @@
+class Rectangle:    
+    def init(self):
+        self.len=int(input("enter length"))
+        self.brd=int(input("enter breadth"))
+    def area(self):
+            self.area= self.len*self.brd
+            print('area=',self.area)
+            return self.area
+    def pp(self):
+            self.pp=2*(self.len+self.brd)
+            print(self.pp)
+            
+x=Rectangle()
+print("\n_Rectangle 1_")
+x.init()
+a1=x.area()
+x.pp()
+
+y=Rectangle()
+print("\n_Rectangle 2_")
+y.init()
+b1=y.area()
+y.pp()
+
+if a1>b1:
+    print("rec 1 is bigger")
+elif a1==b1:
+    print("both are same")
+else:
+    print("rec 2 i bigger")
