@@ -1,0 +1,14 @@
+
+import csv
+with open('file1.csv','w',newline='')as file:
+    writer=csv.writer(file)
+    writer.writerow(['name','age'])
+    writer.writerow(['ganga','20'])
+    writer.writerow(['ashwini','21'])
+
+
+import csv
+with open('file1.csv','r')as file:
+    reader=csv.reader(file)
+    for row in reader:
+        print(row)
