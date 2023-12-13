@@ -1,0 +1,23 @@
+class rect:
+    def __init__(self,a,b):
+        self.length=a
+        self.breadth=b
+    def area(self):
+        return self.length*self.breadth
+    def __lt__(self,o):
+        if(self.area()<o.area()):
+            return True
+        else:
+            return False
+
+h1=int(input('enter the length of first rectangle'))
+b1=int(input('enter the breadth of first rectangle'))
+h2=int(input('enter the length of first rectangle'))
+b2=int(input('enter the breadth of first rectangle'))
+rect1=rect(h1,b1)
+rect2=rect(h2,b2)
+if(rect1<rect2):
+    print("rectangle 2 is big")
+else:
+    print("rectangle 1 is big")
+        
